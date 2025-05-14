@@ -5,7 +5,7 @@ from io import StringIO
 from time import sleep
 from config.settings import settings
 
-def fetch_and_upload_to_s3(since_id=235, max_users=50):
+def fetch_and_upload_to_s3(since_id=135, max_users=50):
     # === Step 1: Get list of users ===
     summary_url = f"https://api.github.com/users?since={since_id}&per_page=100"
     summary_resp = requests.get(summary_url)
