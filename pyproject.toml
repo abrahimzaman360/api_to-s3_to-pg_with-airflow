@@ -6,6 +6,11 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "apache-airflow[cncf-kubernetes]==3.0.0",
+    "boto3>=1.38.15",
     "flask-appbuilder>=4.6.3",
     "icecream>=2.1.4",
+    "pandas>=2.2.3",
+    "pendulum>=3.1.0",
+    "psycopg2-binary>=2.9.10",
+    "requests>=2.32.3",
 ]
